@@ -9,9 +9,12 @@ So here Template matching technique is used with a different font(digits and aph
 # Process : 
 
 1. Localize the four groupings of four digits on a credit card.
-
 2. Extract each of these four groupings followed by segmenting each of the sixteen numbers individually.
-
 3. Recognize each of the sixteen credit card digits by using template matching and the OCR-A FONT.
 
 
+# Steps:
+
+1. Clone this Repo.
+2. pip install > requirements.txt
+3. Run Command :  python final_card_ocr.py -image IMAGE_PATH 
