@@ -1,8 +1,8 @@
 # Credit/Debit Card-OCR
 
-Its an OPENCV-based project to read Account Number , Card Type , and Accont Holder Name from Credit/Debit Card . 
+Its an OPENCV-based project to read Account Number , Card Type , and Account Holder Name from Credit/Debit Card . 
 
-Usually OCR (Tesseract) is used to read text from images . but here the text written is in different font , so that will not work in this case.
+Usually OCR (Tesseract) is used to read text from images . but here the text written is in different font , so that will not work here.
 
 So here Template matching technique is used with a different font(digits and aphabets separately) to extract the associated credit card digits/alphabets from images.
 
@@ -24,6 +24,7 @@ So here Template matching technique is used with a different font(digits and aph
   <img src="font_images/OCRA.png" width="400" height="200" />
   <img src="font_images/ocr_a_reference.png" width="500" height="100" /> 
 </p>
+
 
 # Results : 
 
@@ -84,3 +85,9 @@ Account No. : 5476767898765432
 Card Type   : MasterCard
 
 Name        : COMPANX NAME M STEPHCNS
+
+
+# Notes :
+
+1. It will not work on Indian Debit/Credit Cards as Indian card has a different Font and also each banks have their own Fonts(Big Problem)
+2. As You can see in the results (100% correct to recognize Digits) but (80% correct to recognize alphabets)...so any kind of help is most welcome.
