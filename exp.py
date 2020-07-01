@@ -81,7 +81,7 @@ cv2.imshow('Sample',char[51][1])
 rectkernel = cv2.getStructuringElement(cv2.MORPH_RECT , (9,3))
 sqkernel = cv2.getStructuringElement(cv2.MORPH_RECT , (5,5))
 
-img = cv2.imread('credit_card_04.png')
+img = cv2.imread('credit_card_01.png')
 gray = cv2.cvtColor(img , cv2.COLOR_BGR2GRAY)
 # cv2.imshow('Before' , img)
 gray = imutils.resize(gray , width=300)
@@ -146,6 +146,7 @@ for (i,(gX,gY,gW,gH)) in enumerate(locs):
         roi = group[y:y+h , x:x+w]
         roi = cv2.resize(roi , (57,88))
         scores = []
+
 
         for i in range(len(char)):
             result = cv2.matchTemplate(roi , char[i][1] , cv2.TM_CCOEFF)
