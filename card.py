@@ -131,11 +131,12 @@ for (i,(gX,gY,gW ,gH)) in enumerate(locs):
 
         group_output.append(str(np.argmax(scores)))
 
-        cv2.rectangle(img, (gX - 5, gY - 5),(gX + gW + 5, gY + gH + 5), (0, 0, 255), 2)
-    cv2.putText(img, "".join(group_output), (gX, gY - 15),cv2.FONT_HERSHEY_SIMPLEX, 0.65, (0, 0, 255), 2)
+        # cv2.rectangle(img, (gX - 5, gY - 5),(gX + gW + 5, gY + gH + 5), (0, 0, 255), 2)
+    # cv2.putText(img, "".join(group_output), (gX, gY - 15),cv2.FONT_HERSHEY_SIMPLEX, 0.65, (0, 0, 255), 2)
         # print(group_output)
 
         # update the output digits list
+        # print(group_output)
     output.extend(group_output)
 
 print("Credit Card Type: {}".format(FIRST_NUMBER[output[0]]))
