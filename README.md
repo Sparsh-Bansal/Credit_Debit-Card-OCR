@@ -32,7 +32,9 @@ So here Template matching technique is used with a different font(digits and aph
 </p>
 
 Account No. : 4000 1234 5678 9010
+
 Card Type   : VISA
+
 Name        : VALUED CARDMEMBER
 
 
