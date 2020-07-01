@@ -13,8 +13,15 @@ So here Template matching technique is used with a different font(digits and aph
 3. Recognize each of the sixteen credit card digits by using template matching and the OCR-A FONT.
 
 
-# Steps:
+# Steps :
 
 1. Clone this Repo.
 2. pip install > requirements.txt
 3. Run Command :  python final_card_ocr.py -image IMAGE_PATH 
+
+# Results :
+
+<p>
+  <img src="font_images/OCRA.png" width="100" height="150" />
+  <img src="font_images/ocr_a_reference.png" width="100" height="150" /> 
+</p>
