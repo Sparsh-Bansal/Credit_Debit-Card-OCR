@@ -21,8 +21,9 @@ So here Template matching technique is used with a different font(digits and aph
 
 # Results :
 
-<p>
-  <img src="font_images/OCRA.png" width="200" height="250" />
+<p float="left">
+  <img src="font_images/OCRA.png" width="400" height="200" />
+  <img src="font_images/ocr_a_reference.png" width="500" height="100" /> 
 </p>
 <p>
   <img src="font_images/ocr_a_reference.png" width="200" height="400" /> 
