@@ -19,12 +19,18 @@ So here Template matching technique is used with a different font(digits and aph
 2. pip install > requirements.txt
 3. Run Command :  python final_card_ocr.py -image IMAGE_PATH 
 
-# Results :
-
+# Font-Images:
 <p float="left">
   <img src="font_images/OCRA.png" width="400" height="200" />
   <img src="font_images/ocr_a_reference.png" width="500" height="100" /> 
 </p>
-<p>
-  <img src="font_images/ocr_a_reference.png" width="200" height="400" /> 
+
+# Results : 
+
+<p float="center">
+  <img src="Sample_images/credit_card_01.png" width="400" height="200" />
 </p>
+
+Account No. : 
+Card Type   : 
+Name        : 
