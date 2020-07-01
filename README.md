@@ -89,5 +89,5 @@ Name        : COMPANX NAME M STEPHCNS
 
 # Notes :
 
-1. It will not work on Indian Debit/Credit Cards as Indian card has a different Font and also each banks have their own Fonts(Big Problem)
+1. It will not work on Indian Debit/Credit Cards as Indian card has a different Font and also each bank has their own FontStyle(Big Problem)
 2. As You can see in the results (100% correct to recognize Digits) but (80% correct to recognize alphabets)...so any kind of help is most welcome.
