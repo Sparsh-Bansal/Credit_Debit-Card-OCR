@@ -38,37 +38,49 @@ Card Type   : VISA
 Name        : VALUED CARDMEMBER
 
 
+
 <p float="center">
-  <img src="Sample_images/credit_card_01.png" width="400" height="250" />
+  <img src="Sample_images/credit_card_02.png" width="400" height="250" />
 </p>
 
 Account No. : 4020 3400 0234 5678
+
 Card Type   : VISA
+
 Name        : CU MEMBER
 
 
+
 <p float="center">
-  <img src="Sample_images/credit_card_01.png" width="400" height="250" />
+  <img src="Sample_images/credit_card_03.png" width="400" height="250" />
 </p>
 
 Account No. : 5412 7512 3456 7890
+
 Card Type   : MasterCard
+
 Name        : BB ANN HFYOND
 
 
+
 <p float="center">
-  <img src="Sample_images/credit_card_01.png" width="400" height="250" />
+  <img src="Sample_images/credit_card_04.png" width="400" height="250" />
 </p>
 
 Account No. : 4000 1234 5678 9010
+
 Card Type   : VISA
+
 Name        : YOUR NAME HERE
 
 
+
 <p float="center">
-  <img src="Sample_images/credit_card_01.png" width="400" height="250" />
+  <img src="Sample_images/credit_card_05.png" width="400" height="250" />
 </p>
 
 Account No. : 5476767898765432
+
 Card Type   : MasterCard
+
 Name        : COMPANX NAME M STEPHCNS
